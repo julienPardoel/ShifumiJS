@@ -35,7 +35,7 @@ header {
   align-items: center;
 }
 button {
-  transform: translateX(50px);
+  transform: translateX(60px);
 }
 .visible {
   width: 100px;
