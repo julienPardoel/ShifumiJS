@@ -6,16 +6,16 @@ for (let i = 0; i < buttons.length; i++) {
     const robot = buttons[Math.floor(Math.random() * buttons.length)].innerHTML;
     let result = "";
     if (joueur === robot) {
-      result = "égalité !";
+      result = "Egalité !";
     } else if (
       (joueur === "Pierre" && robot === "Ciseaux") ||
       (joueur === "Ciseaux" && robot === "Feuille") ||
       (joueur === "Feuille" && robot === "Pierre") ||
       joueur === "Puit"
     ) {
-      result = "gagné !";
+      result = "Gagné";
     } else {
-      result = "perdu !";
+      result = "Perdu";
     }
     console.log(`${joueur} vs ${robot} = ${result}`);
     document.querySelector(".response").innerHTML = `${result}`;
