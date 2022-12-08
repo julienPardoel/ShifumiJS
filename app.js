@@ -18,7 +18,6 @@ for (let i = 0; i < buttons.length; i++) {
     ) {
       result = "Gagné";
       score++;
-      console.log(score);
     } else {
       result = "Perdu";
       scoreRobot++;
